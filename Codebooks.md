@@ -161,8 +161,7 @@ The complete list of variables of each feature vector is available in 'features.
 [70,] "fBodyAccMag-meanFreq()"          "fBodyAccMagMeanFreq"         
 [71,] "fBodyBodyAccJerkMag-mean()"      "fBodyBodyAccJerkMagMean"     
 [72,] "fBodyBodyAccJerkMag-std()"       "fBodyBodyAccJerkMagStd"      
-[73,] "fBodyBodyAccJerkMag-meanFreq()"  "fBodyBodyAccJerkMagMeanFreq"
-
+[73,] "fBodyBodyAccJerkMag-meanFreq()"  "fBodyBodyAccJerkMagMeanFreq"    
 [74,] "fBodyBodyGyroMag-mean()"         "fBodyBodyGyroMagMean"        
 [75,] "fBodyBodyGyroMag-std()"          "fBodyBodyGyroMagStd"         
 [76,] "fBodyBodyGyroMag-meanFreq()"     "fBodyBodyGyroMagMeanFreq"    
