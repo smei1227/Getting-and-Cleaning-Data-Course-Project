@@ -25,8 +25,7 @@ This modified Codebooks indicate all the variables in the tidy dataset and summa
   
 # Features
 -  Features are normalized and bounded within [-1,1].
-- In the raw datasets, feature selection 
-=================
+-  In the raw datasets, feature selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -85,9 +84,9 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-- The tidy data only include features on the mean and standard deviation for each measurement. Extracted by searching variable names containg "mean" and "std".
-- Dropped special characters, such as "()", "-", and capitalized "M" and "S" to appropriatedly labels the dataset with descriptive vaiable names.
-=================
+  - The tidy data only include features on the mean and standard deviation for each measurement. Extracted by searching variable names containg "mean" and "std".
+  - Dropped special characters, such as "()", "-", and capitalized "M" and "S" to appropriatedly labels the dataset with descriptive vaiable names.
+
     Comparing variable names of raw data and tidy data
       Raw data variables              Tidy data variables                          
  [1,] "tBodyAcc-mean()-X"               "tBodyAccMeanX"               
@@ -162,7 +161,8 @@ The complete list of variables of each feature vector is available in 'features.
 [70,] "fBodyAccMag-meanFreq()"          "fBodyAccMagMeanFreq"         
 [71,] "fBodyBodyAccJerkMag-mean()"      "fBodyBodyAccJerkMagMean"     
 [72,] "fBodyBodyAccJerkMag-std()"       "fBodyBodyAccJerkMagStd"      
-[73,] "fBodyBodyAccJerkMag-meanFreq()"  "fBodyBodyAccJerkMagMeanFreq" 
+[73,] "fBodyBodyAccJerkMag-meanFreq()"  "fBodyBodyAccJerkMagMeanFreq"
+
 [74,] "fBodyBodyGyroMag-mean()"         "fBodyBodyGyroMagMean"        
 [75,] "fBodyBodyGyroMag-std()"          "fBodyBodyGyroMagStd"         
 [76,] "fBodyBodyGyroMag-meanFreq()"     "fBodyBodyGyroMagMeanFreq"    
